@@ -46,16 +46,16 @@ Style
 Occupancy 
 
 Neel:
-Sale Date 
-Sale Price
-Multi Sale
-YearBuilt
+Sale Date - When the rprooperty was sold
+Sale Price - How much the property sold for
+Multi Sale - Was the Sale part of a package
+YearBuilt - When the house was constructed
 
 David:
-Acres
-TotalLivingArea (sf)
-Bedrooms
-FinishedBsmtArea (sf)
+Acres - Acres of the lot.
+TotalLivingArea (sf) - Total living area in square feet. 
+Bedrooms - Number of bedrooms.
+FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
 
 Ben:
 LotArea (sf)
