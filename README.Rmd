@@ -48,7 +48,7 @@ Occupancy
 Neel:
 Sale Date - When the rprooperty was sold
 Sale Price - How much the property sold for
-Multi Sale - Multiple porperties purchaesd at the same time
+Multi Sale - Was the Sale part of a package
 YearBuilt - When the house was constructed
 
 David:
