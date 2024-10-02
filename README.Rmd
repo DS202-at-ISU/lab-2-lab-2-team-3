@@ -33,23 +33,25 @@ View(ames)
 
 1. 
 
-
-Cameron-
+Cameron:
 Parcel ID
 Address
 Style 
 Occupancy 
 
+Neel:
 Sale Date 
 Sale Price
 Multi Sale
 YearBuilt
 
+David:
 Acres
 TotalLivingArea (sf)
 Bedrooms
 FinishedBsmtArea (sf)
 
+Ben:
 LotArea (sf)
 AC
 FirePlace
