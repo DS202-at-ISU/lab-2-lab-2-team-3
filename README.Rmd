@@ -24,14 +24,37 @@ Include your answers in this document (Rmd file). Make sure that it knits proper
 All submissions to the github repo will be automatically uploaded for grading once the due date is passed.
 Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 library(classdata)
 head(ames)
 View(ames)
+```
 
 1. 
+Cameron-
+Parcel ID
+Address
+Style 
+Occupancy 
 
-2. 
+Sale Date 
+Sale Price
+Multi Sale
+YearBuilt
+
+Acres
+TotalLivingArea (sf)
+Bedrooms
+FinishedBsmtArea (sf)
+
+LotArea (sf)
+AC
+FirePlace
+Neighborhood
+
+
+2. Sale_Price
 
 3. The main variable is Sale price. The range can be found by running
 
