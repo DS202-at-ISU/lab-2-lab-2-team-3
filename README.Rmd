@@ -7,22 +7,16 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-<<<<<<< HEAD
-<<<<<<< HEAD
 library(classdata)
 head(ames)
 View(ames)
-=======
->>>>>>> 9b18df02019e75ed3a4e05b04b8f16571e075583
-=======
+
 library(classdata)
 head(ames)
 
 View(ames)
 range(ames$Sale_Price, na.rm = TRUE)
 
-
->>>>>>> 7caa295db71a250e0c68b78fa529a61198e43224
 ```
 
 # Lab report #2
@@ -52,10 +46,10 @@ Style
 Occupancy 
 
 Neel:
-Sale Date 
-Sale Price
-Multi Sale
-YearBuilt
+Sale Date - When the rprooperty was sold
+Sale Price - How much the property sold for
+Multi Sale - Was the Sale part of a package
+YearBuilt - When the house was constructed
 
 David:
 Acres
@@ -72,14 +66,8 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 
 2. Sale_Price
 
-<<<<<<< HEAD
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
-=======
-<<<<<<< HEAD
-3. 
-=======
-3. The main variable is Sale price. The range goes from 0 - 2,050,0000
->>>>>>> 6a53717e894b3b1b9b84f522a0bf665d7849aa3b
+
 
 
 4. 
