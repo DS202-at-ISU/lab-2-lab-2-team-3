@@ -77,4 +77,5 @@ The graph from the sale and frequency shows from left to right, it has a higher 
 Cameron-TotalLivingArea
 Ben-FinishedBsmntArea (sf)
 David - Bedrooms
+Neel - Arces
 
