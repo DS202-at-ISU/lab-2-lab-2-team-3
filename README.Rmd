@@ -13,6 +13,10 @@ head(ames)
 View(ames)
 range(ames$Sale_Price, na.rm = TRUE)
 
+library(classdata)
+head(ames)
+View(ames)
+
 ```
 
 # Lab report #2
@@ -23,6 +27,8 @@ Include your answers in this document (Rmd file). Make sure that it knits proper
 
 All submissions to the github repo will be automatically uploaded for grading once the due date is passed.
 Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
+<<<<<<< HEAD
+=======
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
