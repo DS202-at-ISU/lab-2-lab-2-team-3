@@ -64,3 +64,5 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 
 4. 
 
+Cameron-TotalLivingArea
+
