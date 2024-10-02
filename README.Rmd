@@ -71,11 +71,7 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 2. Sale_Price
 
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
-The graph from the sale and frequency shows from left to right, it has a higher frequency and than it drops and lowers into a right scheme.
-
-3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
-The histogram displays a right-skewed distribution of Sale Price
-
+The graph from the sale and frequency shows from left to right, it has a higher frequency and than it drops and lowers into a right scheme. The histogram displays a right-skewed distribution of Sale Price
 
 4. 
 Cameron-TotalLivingArea
