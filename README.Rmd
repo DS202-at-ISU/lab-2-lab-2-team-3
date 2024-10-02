@@ -26,38 +26,31 @@ View(ames)
 ```
 
 1. 
-<<<<<<< HEAD
-
-Parcel ID 
-=======
-Cameron-
+Cameron:
 Parcel ID
->>>>>>> 94c6781b66bd0371b0ffec72daabf52359998385
 Address
 Style 
 Occupancy 
 
+Neel:
 Sale Date 
 Sale Price
 Multi Sale
 YearBuilt
 
+David:
 Acres
 TotalLivingArea (sf)
 Bedrooms
 FinishedBsmtArea (sf)
 
+Ben:
 LotArea (sf)
 AC
 FirePlace
 Neighborhood
 
-<<<<<<< HEAD
-2. 
-=======
-
 2. Sale_Price
->>>>>>> 94c6781b66bd0371b0ffec72daabf52359998385
 
 3. 
 
