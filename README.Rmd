@@ -16,7 +16,12 @@ head(ames)
 
 View(ames)
 range(ames$Sale_Price, na.rm = TRUE)
-
+filtered_ames <- ames[ames$`Sale Price` <= 1000000, ]
+hist(filtered_ames$`Sale Price`,
+     main = "Histogram of Filtered Sale Price",
+     xlab = "Sale Price",
+     col = "blue",
+     border = "black")
 ```
 
 # Lab report #2
