@@ -78,4 +78,5 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 
 Cameron-TotalLivingArea
 Ben-FinishedBsmntArea (sf)
+Neel-Acres
 
