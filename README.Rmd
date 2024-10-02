@@ -7,16 +7,12 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(classdata)
-head(ames)
-
-View(ames)
-range(ames$Sale_Price, na.rm = TRUE)
-
+<<<<<<< HEAD
 library(classdata)
 head(ames)
 View(ames)
-
+=======
+>>>>>>> 9b18df02019e75ed3a4e05b04b8f16571e075583
 ```
 
 # Lab report #2
@@ -38,7 +34,6 @@ View(ames)
 ```
 
 1. 
-
 Cameron:
 Parcel ID
 Address
@@ -46,28 +41,26 @@ Style
 Occupancy 
 
 Neel:
-Sale Date - When the rprooperty was sold
-Sale Price - How much the property sold for
-Multi Sale - Was the Sale part of a package
-YearBuilt - When the house was constructed
+Sale Date 
+Sale Price
+Multi Sale
+YearBuilt
 
 David:
-Acres - Acres of the lot.
-TotalLivingArea (sf) - Total living area in square feet. 
-Bedrooms - Number of bedrooms.
-FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
+Acres
+TotalLivingArea (sf)
+Bedrooms
+FinishedBsmtArea (sf)
 
 Ben:
-LotArea (sf)
-AC
-FirePlace
-Neighborhood
+LotArea (sf) - lot area is a numerical attribute. It describes the tota; square area of the lot in square feet.
+AC - AC is a lagocial attribute. It answers the question of if the property has AC. The answer is yes or no.
+FirePlace - FirePLace is also a logical attribute. It shares the same answer options as AC.
+Neighborhood - Neighborhood is a factor variable. This has levels of the neighborhood area in Ames.
 
 2. Sale_Price
 
-3. The main variable is Sale price. The range can be found by running
-
-
+3. 
 
 4. 
 
