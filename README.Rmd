@@ -7,12 +7,16 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-<<<<<<< HEAD
+library(classdata)
+head(ames)
+
+View(ames)
+range(ames$Sale_Price, na.rm = TRUE)
+
 library(classdata)
 head(ames)
 View(ames)
-=======
->>>>>>> 9b18df02019e75ed3a4e05b04b8f16571e075583
+
 ```
 
 # Lab report #2
@@ -34,6 +38,7 @@ View(ames)
 ```
 
 1. 
+
 Cameron:
 Parcel ID
 Address
@@ -41,16 +46,16 @@ Style
 Occupancy 
 
 Neel:
-Sale Date 
-Sale Price
-Multi Sale
-YearBuilt
+Sale Date - When the rprooperty was sold
+Sale Price - How much the property sold for
+Multi Sale - Was the Sale part of a package
+YearBuilt - When the house was constructed
 
 David:
-Acres
-TotalLivingArea (sf)
-Bedrooms
-FinishedBsmtArea (sf)
+Acres - Aceres of the lot.
+TotalLivingArea (sf) - Total living area in square feet. 
+Bedrooms - Number of bedrooms.
+FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
 
 Ben:
 LotArea (sf)
@@ -60,7 +65,9 @@ Neighborhood
 
 2. Sale_Price
 
-3. 
+3. The main variable is Sale price. The range can be found by running
+
+
 
 4. 
 
