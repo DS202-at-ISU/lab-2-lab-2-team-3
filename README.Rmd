@@ -11,6 +11,7 @@ library(classdata)
 head(ames)
 
 View(ames)
+range(ames$Sale_Price, na.rm = TRUE)
 
 ```
 
@@ -32,7 +33,9 @@ View(ames)
 
 2. 
 
-3. 
+3. The main variable is Sale price. The range can be found by running
+
+
 
 4. 
 
