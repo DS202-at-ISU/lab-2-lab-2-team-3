@@ -7,11 +7,6 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(classdata)
-head(ames)
-
-View(ames)
-
 ```
 
 # Lab report #2
@@ -23,31 +18,46 @@ Include your answers in this document (Rmd file). Make sure that it knits proper
 All submissions to the github repo will be automatically uploaded for grading once the due date is passed.
 Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 library(classdata)
 head(ames)
 View(ames)
+```
 
 1. 
+<<<<<<< HEAD
 
 Parcel ID 
+=======
+Cameron-
+Parcel ID
+>>>>>>> 94c6781b66bd0371b0ffec72daabf52359998385
 Address
 Style 
 Occupancy 
+
 Sale Date 
 Sale Price
 Multi Sale
 YearBuilt
+
 Acres
 TotalLivingArea (sf)
 Bedrooms
 FinishedBsmtArea (sf)
+
 LotArea (sf)
 AC
 FirePlace
 Neighborhood
 
+<<<<<<< HEAD
 2. 
+=======
+
+2. Sale_Price
+>>>>>>> 94c6781b66bd0371b0ffec72daabf52359998385
 
 3. 
 
