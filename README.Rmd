@@ -26,26 +26,29 @@ View(ames)
 ```
 
 1. 
-
+Cameron-
 Parcel ID
 Address
 Style 
 Occupancy 
+
 Sale Date 
 Sale Price
 Multi Sale
 YearBuilt
+
 Acres
 TotalLivingArea (sf)
 Bedrooms
 FinishedBsmtArea (sf)
+
 LotArea (sf)
 AC
 FirePlace
 Neighborhood
 
 
-2. 
+2. Sale_Price
 
 3. 
 
