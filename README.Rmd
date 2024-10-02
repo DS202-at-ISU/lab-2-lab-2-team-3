@@ -30,7 +30,7 @@ View(ames)
 
 1. 
 
-Parcel ID
+Parcel ID 
 Address
 Style 
 Occupancy 
@@ -46,7 +46,6 @@ LotArea (sf)
 AC
 FirePlace
 Neighborhood
-
 
 2. 
 
