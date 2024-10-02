@@ -63,7 +63,7 @@ Neighborhood
 
 2. Sale_Price
 
-3. The main variable is Sale price. The range goes from 0 - 2,050,0000
+3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
 
 
 
