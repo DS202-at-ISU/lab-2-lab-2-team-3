@@ -18,3 +18,8 @@ Canvas (only one submission per team) to signal to the instructors that
 you are done with your submission.
 
 library(classdata) head(ames) View(ames)
+
+1.  
+2.  
+3.  
+4.  
