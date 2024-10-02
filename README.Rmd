@@ -66,12 +66,8 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 
 2. Sale_Price
 
-<<<<<<< HEAD
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
 
-=======
-3. The main variable is Sale price. The range goes from 0 - 2,050,0000
->>>>>>> 7e9ac2380b289d474d3e4b05edecd0c2aabd63b5
 
 
 4. Cameron-TotalLivingArea
