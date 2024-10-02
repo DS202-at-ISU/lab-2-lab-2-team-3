@@ -6,6 +6,7 @@ output: github_document
 
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 
 library(classdata)
 head(ames)
@@ -75,5 +76,5 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 4. 
 
 Cameron-TotalLivingArea
-Ben - FinishedBsmntArea (sf)
+Ben-FinishedBsmntArea (sf)
 
