@@ -6,7 +6,6 @@ output: github_document
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 
 library(classdata)
 head(ames)
@@ -31,7 +30,7 @@ All submissions to the github repo will be automatically uploaded for grading on
 Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
 
 
-```{r setup, include=FALSE}
+```{r setup2, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(classdata)
 head(ames)
@@ -54,10 +53,6 @@ Multi Sale
 YearBuilt
 
 David:
-Acres - Acres of the lot.
-TotalLivingArea (sf) - Total living area in square feet. 
-Bedrooms - Number of bedrooms.
-FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
 Acres
 TotalLivingArea (sf)
 Bedrooms
@@ -77,7 +72,6 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000
 
 
-4. Cameron-TotalLivingArea
 4. 
 
 Cameron-TotalLivingArea
