@@ -52,10 +52,10 @@ Multi Sale - Was the Sale part of a package
 YearBuilt - When the house was constructed
 
 David:
-Acres
-TotalLivingArea (sf)
-Bedrooms
-FinishedBsmtArea (sf)
+Acres - Acres of the lot.
+TotalLivingArea (sf) - Total living area in square feet. 
+Bedrooms - Number of bedrooms.
+FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
 
 Ben:
 LotArea (sf) - lot area is a numerical attribute. It describes the tota; square area of the lot in square feet.
@@ -66,11 +66,13 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 
 2. Sale_Price
 
+<<<<<<< HEAD
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
 
+=======
+3. The main variable is Sale price. The range goes from 0 - 2,050,0000
+>>>>>>> 7e9ac2380b289d474d3e4b05edecd0c2aabd63b5
 
 
-4. 
-
-Cameron-TotalLivingArea
+4. Cameron-TotalLivingArea
 
