@@ -8,11 +8,21 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 <<<<<<< HEAD
+<<<<<<< HEAD
 library(classdata)
 head(ames)
 View(ames)
 =======
 >>>>>>> 9b18df02019e75ed3a4e05b04b8f16571e075583
+=======
+library(classdata)
+head(ames)
+
+View(ames)
+range(ames$Sale_Price, na.rm = TRUE)
+
+
+>>>>>>> 7caa295db71a250e0c68b78fa529a61198e43224
 ```
 
 # Lab report #2
@@ -23,14 +33,15 @@ Include your answers in this document (Rmd file). Make sure that it knits proper
 
 All submissions to the github repo will be automatically uploaded for grading once the due date is passed.
 Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
-<<<<<<< HEAD
-=======
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(classdata)
 head(ames)
 View(ames)
+str(ames$`Sale Price`)
+range(ames$`Sale Price`, na.rm = TRUE)
 ```
 
 1. 
@@ -61,7 +72,11 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 
 2. Sale_Price
 
+<<<<<<< HEAD
 3. 
+=======
+3. The main variable is Sale price. The range goes from 0 - 2,050,0000
+
 
 4. 
 
