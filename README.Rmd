@@ -7,7 +7,10 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+<<<<<<< HEAD
 
+=======
+>>>>>>> f934bca9f07b61500aca799a49e9933d6a6e7730
 library(classdata)
 head(ames)
 View(ames)
@@ -17,8 +20,17 @@ head(ames)
 
 View(ames)
 range(ames$Sale_Price, na.rm = TRUE)
+<<<<<<< HEAD
 
 
+=======
+filtered_ames <- ames[ames$`Sale Price` <= 1000000, ]
+hist(filtered_ames$`Sale Price`,
+     main = "Histogram of Filtered Sale Price",
+     xlab = "Sale Price",
+     col = "blue",
+     border = "black")
+>>>>>>> f934bca9f07b61500aca799a49e9933d6a6e7730
 ```
 
 # Lab report #2
@@ -52,6 +64,10 @@ Sale Date
 Sale Price
 Multi Sale
 YearBuilt
+Sale Date - When the rprooperty was sold.
+Sale Price - How much the property sold for
+Multi Sale - Was the Sale part of a package
+YearBuilt - When the house was constructed
 
 David:
 Acres
