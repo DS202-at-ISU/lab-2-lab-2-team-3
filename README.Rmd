@@ -32,8 +32,13 @@ View(ames)
 ```
 
 1. 
+<<<<<<< HEAD
+
+Parcel ID 
+=======
 Cameron-
 Parcel ID
+>>>>>>> 94c6781b66bd0371b0ffec72daabf52359998385
 Address
 Style 
 Occupancy 
@@ -53,8 +58,12 @@ AC
 FirePlace
 Neighborhood
 
+<<<<<<< HEAD
+2. 
+=======
 
 2. Sale_Price
+>>>>>>> 94c6781b66bd0371b0ffec72daabf52359998385
 
 3. The main variable is Sale price. The range can be found by running
 
