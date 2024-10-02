@@ -69,8 +69,6 @@ AC - AC is a lagocial attribute. It answers the question of if the property has 
 FirePlace - FirePLace is also a logical attribute. It shares the same answer options as AC.
 Neighborhood - Neighborhood is a factor variable. This has levels of the neighborhood area in Ames.
 
-Fix
-
 2. Sale_Price
 
 
@@ -83,4 +81,5 @@ Fix
 4. 
 
 Cameron-TotalLivingArea
+Ben - FinishedBsmntArea (sf)
 
