@@ -51,10 +51,10 @@ Multi Sale - Was the Sale part of a package
 YearBuilt - When the house was constructed
 
 David:
-Acres - How many acres the area has. 
-TotalLivingArea (sf) - How many sf the total living area has.
-Bedrooms - How many bedrooms there are goign to be. 
-FinishedBsmtArea (sf) - How many sf the fnsihed bsmt area has. 
+Acres - Acres of the lot.
+TotalLivingArea (sf) - Total living area in square feet. 
+Bedrooms - Number of bedrooms.
+FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
 
 Ben:
 LotArea (sf)
@@ -69,4 +69,6 @@ Neighborhood
 
 
 4. 
+
+Cameron-TotalLivingArea
 
