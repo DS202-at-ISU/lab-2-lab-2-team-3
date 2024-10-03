@@ -91,7 +91,7 @@ plot(ames$Acres, ames$`Sale Price`,
      pch = 16)
 
 ```
-Acres Summary
+Acres Explanation
 The range of the Acres goes from 0.001 - 12.012 acres(after removing the house(s) with 0 values).
 Most of the data points are clustered around Acres values less than 2, indicating that the majority of properties are on small lots, the sale price for these properties have high density of points between 0 - 500,000.
 There are a few outliers with high Acres and high prices.
