@@ -48,6 +48,8 @@ head(ames)
 View(ames)
 str(ames$`Sale Price`)
 range(ames$`Sale Price`, na.rm = TRUE)
+
+range(ames$`LotArea(sf)`, na.rm = TRUE)
 ```
 
 1. 
@@ -70,7 +72,7 @@ Bedrooms - Number of bedrooms.
 FinishedBsmtArea (sf) - Total area of the finished basement in square feet.
 
 Ben:
-LotArea (sf) - lot area is a numerical attribute. It describes the tota; square area of the lot in square feet.
+LotArea (sf) - lot area is a numerical attribute. It describes the tota; square area of the lot in square feet. The range is from 0 to 523,228.
 AC - AC is a lagocial attribute. It answers the question of if the property has AC. The answer is yes or no.
 FirePlace - FirePLace is also a logical attribute. It shares the same answer options as AC.
 Neighborhood - Neighborhood is a factor variable. This has levels of the neighborhood area in Ames.
@@ -97,8 +99,15 @@ The histogram displays a right-skewed distribution of Sale Price
 4. 
 Cameron-TotalLivingArea
 
-Ben attribute - FinishedBsmntArea (sf) 
+Ben attribute - LotArea(sf)
+```{r Attribute, include=FALSE}
+library(ggplot2)
+ggplot(ames, aes(x = `LotArea(sf)`, y = `Sale Price`)) +
+  geom_point() +
+  labs(x = "Lot Area (sf)", y = "Sale Price", title = "Scatterplot of Lot Area vs. Sale Price") +
+  theme_minimal()
+```
+
 
 Ben-FinishedBsmntArea (sf)
 David - Bedrooms
-
