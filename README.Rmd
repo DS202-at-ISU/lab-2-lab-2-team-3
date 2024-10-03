@@ -7,13 +7,9 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-<<<<<<< HEAD
 
 
 
-
-=======
->>>>>>> 8fee8626140b3e4bff454c4a0270d2ffb04e9ad6
 library(classdata)
 head(ames)
 View(ames)
@@ -23,23 +19,16 @@ head(ames)
 
 View(ames)
 range(ames$Sale_Price, na.rm = TRUE)
-<<<<<<< HEAD
 
 
 
-
-=======
->>>>>>> 8fee8626140b3e4bff454c4a0270d2ffb04e9ad6
 filtered_ames <- ames[ames$`Sale Price` <= 1000000, ]
 hist(filtered_ames$`Sale Price`,
      main = "Histogram of Filtered Sale Price",
      xlab = "Sale Price",
      col = "blue",
      border = "black")
-<<<<<<< HEAD
 
-=======
->>>>>>> 8fee8626140b3e4bff454c4a0270d2ffb04e9ad6
 ```
 
 # Lab report #2
@@ -91,26 +80,25 @@ Neighborhood - Neighborhood is a factor variable. This has levels of the neighbo
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
 The graph from the sale and frequency shows from left to right, it has a higher frequency and than it drops and lowers into a right scheme.
 
-<<<<<<< HEAD
+
 
 3. 
 
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000
-=======
+
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
 
-=======
+
 3. The main variable is Sale price. The range goes from 0 - 2,050,0000.
 The histogram displays a right-skewed distribution of Sale Price
->>>>>>> 8fee8626140b3e4bff454c4a0270d2ffb04e9ad6
+
 
 
 4. 
 Cameron-TotalLivingArea
-<<<<<<< HEAD
+
 Ben attribute - FinishedBsmntArea (sf) 
-=======
+
 Ben-FinishedBsmntArea (sf)
 David - Bedrooms
 
->>>>>>> 8fee8626140b3e4bff454c4a0270d2ffb04e9ad6
