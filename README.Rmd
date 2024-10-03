@@ -100,12 +100,15 @@ The histogram displays a right-skewed distribution of Sale Price
 Cameron-TotalLivingArea
 
 Ben attribute - LotArea(sf)
-```{r Attribute, include=FALSE}
+```{r Attribute_LotArea, include=FALSE}
 library(ggplot2)
-ggplot(ames, aes(x = `LotArea(sf)`, y = `Sale Price`)) +
+library(classdata)
+p <- ggplot(ames, aes(x = `LotArea(sf)`, y = `Sale Price`)) +
   geom_point() +
   labs(x = "Lot Area (sf)", y = "Sale Price", title = "Scatterplot of Lot Area vs. Sale Price") +
   theme_minimal()
+
+print(p)
 ```
 
 
