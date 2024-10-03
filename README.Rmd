@@ -41,7 +41,6 @@ head(ames)
 View(ames)
 str(ames$`Sale Price`)
 range(ames$`Sale Price`, na.rm = TRUE)
-
 range(ames$`LotArea(sf)`, na.rm = TRUE)
 ```
 
