@@ -77,5 +77,8 @@ The graph from the sale and frequency shows from left to right, it has a higher 
 Cameron-TotalLivingArea
 Ben-FinishedBsmntArea (sf)
 David - Bedrooms
+
 Neel - Arces
+The range of the Acres goes from 0.001 - 12.012 acres(after removing the house(s) with 0 values).
+The 
 
