@@ -83,12 +83,8 @@ Cameron-TotalLivingArea
 Neel - Arces
 ```{r Attribute_Acres include=FALSE}
 library(classdata)
-plot(ames$Acres, ames$`Sale Price`,
-     main = "Scatterplot of Sale Price vs. Acres",
-     xlab = "Acres",
-     ylab = "Sale Price",
-     col = "blue",
-     pch = 16)
+plot(ames$Acres, ames$`Sale Price`,main = "Scatterplot of Sale Price vs. Acres",
+  xlab = "Acres", ylab = "Sale Price", col = "blue", pch = 16)
 
 ```
 Acres Explanation
