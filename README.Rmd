@@ -8,19 +8,11 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-
-
 library(classdata)
 head(ames)
 View(ames)
 
-library(classdata)
-head(ames)
-
-View(ames)
 range(ames$Sale_Price, na.rm = TRUE)
-
-
 
 filtered_ames <- ames[ames$`Sale Price` <= 1000000, ]
 hist(filtered_ames$`Sale Price`,
