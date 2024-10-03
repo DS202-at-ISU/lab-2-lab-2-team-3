@@ -110,7 +110,8 @@ p <- ggplot(ames, aes(x = `LotArea(sf)`, y = `Sale Price`)) +
 
 print(p)
 ```
+Ben - LotArea explanation
+This graph has some major issues with it. For starters, it has some huge outliers. There is a big outlier past 5e+05 on the x axis, and multiple more that are way up at the top left of the graph. There isn't a ton that can be taken away from this graph. The outliers prevent any major takeaways and even then, it doesn't look like there are any major correlations with the data that is in the bottom left.
 
 
-Ben-FinishedBsmntArea (sf)
 David - Bedrooms
