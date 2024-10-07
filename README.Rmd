@@ -107,3 +107,20 @@ This graph has some major issues with it. For starters, it has some huge outlier
 
 
 David - Bedrooms
+library(classdata)
+
+# Scatterplot of Sale Price vs. Bedrooms
+plot(ames$Bedrooms, ames$`Sale Price`, 
+     main = "Scatterplot of Sale Price vs. Bedrooms",
+     xlab = "Number of Bedrooms", 
+     ylab = "Sale Price", 
+     col = "blue", 
+     pch = 16)
+     
+Explanation: 
+From the data and plot, I observed that sale prices generally increase with the number of bedrooms, but the trend is inconsistent. There is considerable variability, particularly for houses with more than 4 bedrooms, with some larger houses showing unexpectedly low prices. This indicates that factors beyond just the number of bedrooms, like location or property condition, have a significant influence on sale price.
+
+
+  
+
+
